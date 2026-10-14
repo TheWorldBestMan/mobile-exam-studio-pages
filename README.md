@@ -1,17 +1,13 @@
-# 移动端笔试研习室 · GitHub Pages
+﻿# 移动端笔试研习室（GitHub Pages）
 
-这是公开发布的静态学习版本，访问地址：
+访问地址：https://theworldbestman.github.io/mobile-exam-studio-pages/
 
-https://theworldbestman.github.io/mobile-exam-studio-pages/
+这是由私有源码仓库的 Publish-Pages.ps1 自动生成的静态发布包。
 
-包含课程、概念卡、360 道分类练习、原卷考、3 套模拟卷、错题复习以及设备本地学习记录。
+- 支持课程、概念卡片、客观题设备端判分、错题、收藏、笔记和考试。
+- 学习记录保存在当前浏览器的 localStorage 中，不会上传到 GitHub。
+- GitHub Pages 不运行 JDK；Java 题可编辑、保存和下载，但不会显示虚假的运行通过、耗时或内存数据。
+- Java 隐藏测试、本机访问密钥和学习记录不包含在本仓库中。
 
-## 运行边界
-
-- 客观题在当前浏览器中判分，答案可被浏览器资源检查，不属于服务器保密判分。
-- Java 代码可以编写、保存和下载，但 GitHub Pages 不提供 JDK，因此不能运行或提交。
-- Android 实作继续使用验收清单自评。
-- 学习记录只保存在当前浏览器的 localStorage，不会上传 GitHub，也不会自动同步到其他设备。
-- 本仓库只包含静态构建产物，不包含 Java 隐藏测试、访问密钥或用户学习数据。
-
-需要真实 Java 21 判题时，请使用私有源码仓库中的本机版本。
+源版本：647c720
+发布时间：2026-10-14 16:38:32 +08:00
